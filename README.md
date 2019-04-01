@@ -17,7 +17,7 @@
 
 6. To run a posts query, use the following schema: 
 
-    `query {
+    ```query {
   posts(searchString: "") {
     id
     title
@@ -28,7 +28,7 @@
       name
     }
   }
-}`
+}```
 
 7. To run a single user query, use the following schema: 
 
