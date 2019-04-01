@@ -17,7 +17,7 @@
 
 6. To run a posts query, use the following schema: 
 
-    ```query {
+    `query {
   posts(searchString: "") {
     id
     title
@@ -28,20 +28,20 @@
       name
     }
   }
-}```
+}`
 
 7. To run a single user query, use the following schema: 
 
-    query {
+    `query {
   user(id: "") {
     id
     name
   }
-}
+}`
 
 8. To run a query to retrieve all users, use the following schema: 
 
-    query {
+    `query {
   users {
     id
     name
@@ -49,19 +49,19 @@
       content
     }
   }
-}
+}`
 
 9. To run a signup mutation, use the following schema: 
 
-    mutation {
+    `mutation {
   signup(name: "") {
     id
   }
-}
+}`
 
 10. To run a createDraft mutation, use the following schema: 
 
-    mutation {
+    `mutation {
   createDraft(
     title: "",
     content: "",
@@ -70,25 +70,25 @@
     id
     published
   }
-}
+}`
 
 11. To run a publish mutation, use the following schema:
 
-    mutation {
+    `mutation {
   publish(
     id: "",
   ) {
     id
     published
   }
-}
+}`
 
 12. To run a deletePost mutation, use the following schema:
 
-    mutation {
+    `mutation {
   deletePost(
     id: "",
   ) {
     id
   }
-}
+}`
