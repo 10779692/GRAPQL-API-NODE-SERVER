@@ -17,7 +17,7 @@
 
 ![Image of playground-layout](https://github.com/10779692/GRAPQL-API-NODE-SERVER/blob/master/playground-layout.png?raw=true)
 
-7. To run a posts query, use the following schema: 
+7. To run a posts query, use the following query: 
 
     `query {
   posts(searchString: "insert title here or leave blank to retrieve all posts") {
@@ -32,7 +32,7 @@
   }
 }`
 
-8. To run a single user query, use the following schema: 
+8. To run a single user query, use the following query: 
 
     `query {
   user(id: "") {
@@ -41,7 +41,7 @@
   }
 }`
 
-9. To run a query to retrieve all users, use the following schema: 
+9. To run a query to retrieve all users, use the following query: 
 
     `query {
   users {
@@ -53,7 +53,7 @@
   }
 }`
 
-10. To run a signup mutation, use the following schema: 
+10. To run a signup mutation, use the following mutation: 
 
     `mutation {
   signup(name: "") {
@@ -61,7 +61,7 @@
   }
 }`
 
-11. To run a createDraft mutation, use the following schema: 
+11. To run a createDraft mutation, use the following mutation: 
 
     `mutation {
   createDraft(
@@ -74,7 +74,7 @@
   }
 }`
 
-12. To run a publish mutation, use the following schema:
+12. To run a publish mutation, use the following mutation:
 
     `mutation {
   publish(
@@ -85,7 +85,7 @@
   }
 }`
 
-13. To run a deletePost mutation, use the following schema:
+13. To run a deletePost mutation, use the following mutation:
 
     `mutation {
   deletePost(
