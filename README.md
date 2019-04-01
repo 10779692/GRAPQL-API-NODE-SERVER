@@ -9,7 +9,7 @@
 
 3. Run the command "cd my-yoga-server"
 
-4. Run the command "npm i graphql-yoga prisma-binding
+4. Run the command "npm i graphql-yoga prisma-binding"
 
 5. Run the command "node src/index.js"
 
