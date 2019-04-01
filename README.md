@@ -5,17 +5,19 @@
 
 1. Clone repository into Github: https://github.com/10779692/GRAPQL-API-NODE-SERVER.git
 
-2. Run "cd my-yoga-server"
+2. Run the command "cd GRAPQL-API-NODE-SERVER"
 
-3. Run the command "npm i graphql-yoga prisma-binding
+3. Run the command "cd my-yoga-server"
 
-4. Run the command "node src/index.js"
+4. Run the command "npm i graphql-yoga prisma-binding
 
-5. Your playground should start on "http://localhost:4000"
+5. Run the command "node src/index.js"
+
+6. Your playground should start on "http://localhost:4000"
 
 ![Image of playground-layout](<img src="playground-layout.png">)
 
-6. To run a posts query, use the following schema: 
+7. To run a posts query, use the following schema: 
 
     `query {
   posts(searchString: "insert title here or leave blank to retrieve all posts") {
@@ -30,7 +32,7 @@
   }
 }`
 
-7. To run a single user query, use the following schema: 
+8. To run a single user query, use the following schema: 
 
     `query {
   user(id: "") {
@@ -39,7 +41,7 @@
   }
 }`
 
-8. To run a query to retrieve all users, use the following schema: 
+9. To run a query to retrieve all users, use the following schema: 
 
     `query {
   users {
@@ -51,7 +53,7 @@
   }
 }`
 
-9. To run a signup mutation, use the following schema: 
+10. To run a signup mutation, use the following schema: 
 
     `mutation {
   signup(name: "") {
@@ -59,7 +61,7 @@
   }
 }`
 
-10. To run a createDraft mutation, use the following schema: 
+11. To run a createDraft mutation, use the following schema: 
 
     `mutation {
   createDraft(
@@ -72,7 +74,7 @@
   }
 }`
 
-11. To run a publish mutation, use the following schema:
+12. To run a publish mutation, use the following schema:
 
     `mutation {
   publish(
@@ -83,7 +85,7 @@
   }
 }`
 
-12. To run a deletePost mutation, use the following schema:
+13. To run a deletePost mutation, use the following schema:
 
     `mutation {
   deletePost(
