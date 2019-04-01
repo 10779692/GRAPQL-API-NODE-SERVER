@@ -1,7 +1,7 @@
 # DGM 4790 GraphQL API Node Server - Jared Reed
 
 ## Instructions: 
-__________________________________________
+
 
 1. Clone repository into Github: https://github.com/10779692/GRAPQL-API-NODE-SERVER.git
 
@@ -17,7 +17,7 @@ __________________________________________
 
 6. To run a posts query, use the following schema: 
 
-    query {
+    `query {
   posts(searchString: "") {
     id
     title
@@ -28,7 +28,7 @@ __________________________________________
       name
     }
   }
-}
+}`
 
 7. To run a single user query, use the following schema: 
 
