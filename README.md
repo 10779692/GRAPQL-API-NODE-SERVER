@@ -3,7 +3,7 @@
 ## Instructions: 
 
 
-1. Clone repository into Github: https://github.com/10779692/GRAPQL-API-NODE-SERVER.git
+1. Clone repository from Github: https://github.com/10779692/GRAPQL-API-NODE-SERVER.git
 
 2. Run the command "cd GRAPQL-API-NODE-SERVER"
 
