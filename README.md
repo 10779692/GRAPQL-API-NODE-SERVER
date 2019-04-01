@@ -15,7 +15,7 @@
 
 6. Your playground should start on "http://localhost:4000"
 
-![Image of playground-layout](<img src="playground-layout.png">)
+![Image of playground-layout](https://github.com/10779692/GRAPQL-API-NODE-SERVER/blob/master/playground-layout.png?raw=true)
 
 7. To run a posts query, use the following schema: 
 
