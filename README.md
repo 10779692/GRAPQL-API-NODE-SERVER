@@ -18,7 +18,7 @@
 6. To run a posts query, use the following schema: 
 
     `query {
-  posts(searchString: "") {
+  posts(searchString: "insert title here or leave blank to retrieve all posts") {
     id
     title
     content
@@ -63,9 +63,9 @@
 
     `mutation {
   createDraft(
-    title: "",
-    content: "",
-    authorId: ""
+    title: "insert new title here",
+    content: "insert new content here",
+    authorId: "insert id from signup mutation here"
   ) {
     id
     published
@@ -76,7 +76,7 @@
 
     `mutation {
   publish(
-    id: "",
+    id: "insert created id from createDraft mutation here",
   ) {
     id
     published
@@ -87,7 +87,7 @@
 
     `mutation {
   deletePost(
-    id: "",
+    id: "run posts query to grab id from post to delete it",
   ) {
     id
   }
